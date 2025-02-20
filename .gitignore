@@ -3,3 +3,4 @@
 gym-carla
 /data/**
 
+Chapter06/saved_models/traffic_best_model.pth

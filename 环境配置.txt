@@ -3,6 +3,7 @@
 https://zhuanlan.zhihu.com/p/47663391 
 pip config set global.extra-index-url "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
 
+***这个安装的是无GPU的pytorch版本，如果要安装GPU版本的pytorch，需要先卸载torch和torchvision，再安装torch和torchvision。
 conda create --name d2l python=3.10
 pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
 pip install jupyter pandas matplotlib openpyxl

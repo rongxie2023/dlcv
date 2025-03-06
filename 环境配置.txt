@@ -1,0 +1,21 @@
+#windows
+配置镜像源
+https://zhuanlan.zhihu.com/p/47663391 
+pip config set global.extra-index-url "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+
+conda create --name d2l python=3.10
+pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
+pip install jupyter pandas matplotlib openpyxl
+pip install scikit-learn tqdm torchmetrics tensorboard 
+pip install pytorch-lightning
+pip install torchkeras
+pip install pylabel
+pip install -U torch_snippets==0.532
+
+pip install transformers datasets evaluate
+
+pip install ultralytics supervision roboflow
+
+pip install opencv-python
+pip install torchsummary
+pip install grad-cam
